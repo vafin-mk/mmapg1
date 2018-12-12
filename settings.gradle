@@ -1,0 +1,14 @@
+include ':app'
+project(':app').projectDir = new File('modules/launcher/app')
+
+include ':feature1'
+project(':feature1').projectDir = new File('modules/feature/feature1')
+
+include ':feature2'
+project(':feature2').projectDir = new File('modules/feature/feature2')
+
+include ':feature3'
+project(':feature3').projectDir = new File('modules/feature/feature3')
+
+include ':core'
+project(':core').projectDir = new File('modules/base/core')
